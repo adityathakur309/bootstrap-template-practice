@@ -27,14 +27,20 @@ a{
     background-color: var(--bg-color);
 
 }
+.nav{
+    position: sticky;
+    top: 1;
+    z-index: 1;
+}
 nav .a{
-    color: var(--primary-color);
     font-size: 1.2rem;
+    color: white;
     transition: all 0.3s;
 }
 nav .a:hover{
-    color:skyblue;
+    color: rgb(5, 240, 189);
 }
+
 /* nav end */
 /* home start  */
 .home-sec{
