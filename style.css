@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+:root{
+    --primary-color:white;
+    --bg-color:rgb(0, 0, 0,0.7);
+}
+.h2{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 2.3rem;
+    color: var(--bg-color);
+}
+.mr-bot{
+    margin-bottom: 70px;
+}
+a{
+    text-decoration: none;
+}
+.bg-color{
+    background-color: var(--bg-color);
+
+}
+nav .a{
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    transition: all 0.3s;
+}
+nav .a:hover{
+    color:skyblue;
+}
+/* nav end */
+/* home start  */
+.home-sec{
+    background-color: var(--bg-color);
+    height: 100vh;
+    padding-top:30px ;
+    position: relative;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.video{
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+   
+    
+}
+.custom-shape-divider-bottom-1714371510 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1714371510 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1714371510 .shape-fill {
+    fill: #FFFFFF;
+}
+/* end  */
+/* courses start */
+.course-sec video{
+width: 100%;
+}
+.course-sec .card{
+transition: all 0.3s;}
+.course-sec .card:hover{
+background-color: #583434;
+
+}
+
+/* end  */ 
+/* about start  */
+.about-sec{
+padding: 3rem;
+position: relative;
+
+}
+.left-icon{
+    color: rgb(192, 211, 25);
+    font-size: 1.8rem;
+    position: absolute;
+    left: -35px;
+    top: 40%;
+    
+}
+.right-icon{
+    position: absolute;
+    right: -35px;
+    top: 40%;
+}
+
+.bottom{
+    position: absolute;
+    bottom: -60px;
+    display: flex;
+}
+
+/* end  */
+/* footer start  */
+footer{
+    padding: 2rem 0px;
+}
+footer .foot-img{
+ height: 180px;
+ width: 180px;
+ border-radius: 50%;
+}
+
+/* end  */
+/* media queries start 
+ */
+ @media screen and (max-width:576px) {
+    .h2{
+        text-align: left;
+        font-size: 1.3rem;
+    }
+    footer .foot-img{
+        width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    }
+
+ }
+ /* end  */
